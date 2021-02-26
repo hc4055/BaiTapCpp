@@ -5,7 +5,7 @@ using namespace std ;
 
 int main()
 {
-	double a, b, c, s, area ;
+	double a, b, c, s, area;
 	cin >> a >> b >> c;
 	if( a+b>c && b+c>a && a+c>b ) 
 	{
