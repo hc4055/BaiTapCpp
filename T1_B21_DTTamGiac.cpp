@@ -7,7 +7,7 @@ int main()
 {
 	double a, b, c, s, area ;
 	cin >> a >> b >> c;
-	if(a+b>c && b+c>a && a+c>b) 
+	if( a+b>c && b+c>a && a+c>b ) 
 	{
 	s = ( a + b + c ) / 2 ;
 	area = sqrt ( s* (s-a) * (s-b) * (s-c) ) ;
